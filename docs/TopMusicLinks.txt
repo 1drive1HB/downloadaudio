@@ -1,4 +1,5 @@
 --##---------------------------------------##--
+
 TagsSources:
 -- pages to download music 
 -- sorted by recomendation when searching
@@ -56,6 +57,10 @@ https://ytdl-org.github.io/youtube-dl/index.html
 
 
 --##---------------------------------------##--
+icons and tags for SoundCloud, Spotify, YouTube, Deezer, Beatport
+black and white small icons for tags on links: 
+SoundCloud, Spotify, YouTube, Deezer, Beatport\
+
 
 
 Other Sites:
@@ -71,3 +76,6 @@ Playlists YT:
 https://en.loader.to/4/
 Online Convertion :
 https://www.freeconvert.com/
+
+
+https://www.iconfinder.com/

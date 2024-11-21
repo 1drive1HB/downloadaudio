@@ -57,3 +57,4 @@ document.addEventListener('DOMContentLoaded', function() {
 // <span class="status-indicator loading" data-url="https://torrenttribe.com/">Loading...</span>
 // </li>
 
+//    <script src="js/ping.js"></script>
