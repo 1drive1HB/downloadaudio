@@ -1,0 +1,73 @@
+--##---------------------------------------##--
+TagsSources:
+-- pages to download music 
+-- sorted by recomendation when searching
+
+SoundCloud, Spotify, YouTube, Deezer, Beatport
+
+-- specs for youtube
+Low Quality,MP3 Max 320Kb: 
+https://www.youtube.com/
+
+High Quality, Max FLAC: 
+https://soundcloud.com/
+
+Other:
+https://open.spotify.com/
+https://www.beatport.com/
+
+####################
+Audio Ripping Sites:
+
+Best Quality FLAC and other audio formats:
+- soundcloud, spotify -
+https://lucida.to/
+- soundcloud - 
+https://soundcloudrips.com/en/
+
+- deezer
+Live Download, FLAC music:
+https://eu.deezer.squid.wtf/
+
+- YouTube
+Live YT 320KB:
+https://mp3-daddy.com/
+
+Other _ Bc links:
+SoundCloud 320KB:
+https://soundcloudrips.com/en/
+https://downloadsound.cloud/
+https://scdler.com/
+https://ytmp3.la/
+
+
+--##---------------------------------------##--
+
+OnlineConverter:
+https://audioalter.com/
+Playlists YT:
+https://en.loader.to/4/
+Online Convertion :
+https://www.freeconvert.com/
+Tools:
+https://www.mp3tag.de/en/
+Edit metadata of audio files:
+https://ytdl-org.github.io/youtube-dl/index.html
+
+
+--##---------------------------------------##--
+
+
+Other Sites:
+https://github.com/nicotine-plus/nicotine-plus?tab=readme-ov-file
+https://github.com/yt-dlp/yt-dlp
+https://tunepat.com/spotify-music-converter-windows.html
+
+SoundCloud:
+https://soundcloudrips.com/en/
+https://downloadsound.cloud/
+
+Playlists YT:
+https://en.loader.to/4/
+Online Convertion :
+https://www.freeconvert.com/
