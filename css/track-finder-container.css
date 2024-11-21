@@ -1,0 +1,140 @@
+/* General container styling */
+#track-finder-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* List of links */
+.link-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Wrap items on smaller screens */
+    padding: 0;
+    margin: 20px 0;
+}
+
+/* Individual link items */
+.link-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+    transition: transform 0.3s;
+}
+
+.link-item:hover {
+    transform: scale(1.1);
+}
+
+/* Site icon styling */
+.site-icon {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+/* Link text styling */
+.link-item a {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-size: 0.9rem;
+}
+
+.link-item a:hover {
+    color: #a6dcef;
+}
+
+/* Responsive design */
+@media (max-width: 576px) {
+    .link-item {
+        width: 60px;
+    }
+
+    .site-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .link-item a {
+        font-size: 0.8rem;
+    }
+}
+
+/* Backup Links Container */
+#backup-links-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Backup Links Table */
+.backup-links-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #1f2937;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Table Head */
+.backup-links-table thead th {
+    background: #0d1117;
+    color: #a6dcef;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: left;
+    text-align: center;
+}
+
+/* Table Rows */
+.backup-links-table tbody tr {
+    border-bottom: 1px solid #2c3e50;
+}
+
+.backup-links-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+/* Table Cells */
+.backup-links-table td {
+    padding: 10px;
+    font-size: 0.9rem;
+    color: #e0e0e0;
+}
+
+.backup-links-table td a {
+    color: #a6dcef;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.backup-links-table td a:hover {
+    text-decoration: underline;
+}
+
+/* Status Indicator */
+.status-indicator {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: #8fbf88; /* Default green for active */
+}
+
+/* Add a Loading Class */
+.status-indicator.loading {
+    color: #f39c12; /* Orange for loading */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .backup-links-table td {
+        font-size: 0.8rem;
+    }
+
+    .backup-links-table thead th {
+        font-size: 0.9rem;
+    }
+}

@@ -46,15 +46,28 @@ https://ytmp3.la/
 
 OnlineConverter:
 https://audioalter.com/
-Playlists YT:
+
+Playlists Youtube Download:
 https://en.loader.to/4/
+
 Online Convertion :
 https://www.freeconvert.com/
-Tools:
-https://www.mp3tag.de/en/
-Edit metadata of audio files:
-https://ytdl-org.github.io/youtube-dl/index.html
 
+Tools:
+
+Simple Online Audio Compare:
+" The similarity between these two audio files is nn.nn% "
+https://blue2digital.com/apps/compare-audios.html
+
+Audio File Types Info:
+https://primesound.org/audio-file-formats/
+
+Online Audio Metadata Info:
+https://mediaarea.net/MediaInfoOnline
+https://audio-tag-analyzer.netlify.app/
+
+Download WIN10 AudioMetadata App:
+https://www.mp3tag.de/en/
 
 --##---------------------------------------##--
 icons and tags for SoundCloud, Spotify, YouTube, Deezer, Beatport

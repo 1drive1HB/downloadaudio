@@ -11,30 +11,20 @@
     <!-- External CSS -->
     <link rel="stylesheet" type="text/css" href="css/mainCSS.css">
     <link rel="stylesheet" href="css/barHEADING.css">
+    <link rel="stylesheet" type="text/css" href="css/track-finder-container.css">
 
 </head>
 <body>
+    <!-- In your index.html -->
     <div class="containerM">
-        <header>
-            <div class="playing">
-                <span class="playing__bar playing__bar1"></span>
-                <span class="playing__bar playing__bar2"></span>
-                <span class="playing__bar playing__bar3"></span>
-            </div>
-            <br>
-            <h1>Audio & Music Ripping Sites</h1>
-            <br>
-            <div class="playing">
-                <span class="playing__bar playing__bar1"></span>
-                <span class="playing__bar playing__bar2"></span>
-                <span class="playing__bar playing__bar3"></span>
-            </div>
-        </header>
-
+        <div id="header-container"></div>
         <h3>
-            info
+            info...
         </h3>
+    </div>
 
+    <div class="containerM">
+        <div id="song-pl"></div>
     </div>
 
     <div class="containerM">
@@ -72,7 +62,7 @@
                 <!-- Site Image -->
                 <img src="assets/pic/soundclouddrip.JPG" alt="SoundCloud Music Site" class="site-img">
                 
-                <h3>SoundCloud</h3> <!-- Updated title -->
+                <h3>SoundCloudDrip</h3> <!-- Updated title -->
                 <p>FLAC</p> <!-- Updated description -->
                 
                 <!-- Tags as Icons -->
@@ -91,7 +81,7 @@
                 <!-- Site Image -->
                 <img src="assets/pic/deezerDown.JPG" alt="Deezer Music Site" class="site-img">
                 
-                <h3>Deezer</h3> <!-- Updated title -->
+                <h3>DeezerDown</h3> <!-- Updated title -->
                 <p>FLAC</p> <!-- Updated description -->
                 
                 <!-- Tags as Icons -->
@@ -110,14 +100,12 @@
                 <!-- Site Image -->
                 <img src="assets/pic/mp3YoutubeDaddy.JPG" alt="YouTube Music Site" class="site-img">
                 
-                <h3>YouTube</h3> <!-- Updated title -->
+                <h3>Mp3YoutubeDaddy</h3> <!-- Updated title -->
                 <p>320KB quality</p> <!-- Updated description -->
                 
                 <!-- Tags as Icons -->
                 <div class="tags">
-                    <img src="assets/ico/logo_spotify_icon.png" alt="Spotify" class="tag-icon">
-                    <img src="assets/ico/soundcloud_ico.png" alt="SoundCloud" class="tag-icon">
-                    <img src="assets/ico/deezericon.png" alt="Deezer" class="tag-icon">
+                    <img src="assets/ico/youtubeicon.png" alt="yt" class="tag-icon">
                 </div>
             
                 <!-- Status Section -->
@@ -125,10 +113,63 @@
                 
                 <!-- Link to Site -->
                 <a href="https://mp3-daddy.com/" target="_blank">Visit Site</a>
-            </div>
-            
+            </div>   
         </div>
     </div>
+
+    <div id="backup-links-container" class="containerM">
+        <h2>Backup Links</h2>
+        <table class="backup-links-table table-sm table-striped table-dark">
+            <thead>
+                <tr>
+                    <th>Site</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- SoundCloud Rips -->
+                <tr>
+                    <td><a href="https://soundcloudrips.com/en/" target="_blank">SoundCloud Rips</a></td>
+                    <td><span class="status-indicator loading" data-url="https://soundcloudrips.com/en/">Loading...</span></td>
+                </tr>
+                <!-- Download Sound -->
+                <tr>
+                    <td><a href="https://downloadsound.cloud/" target="_blank">Download Sound</a></td>
+                    <td><span class="status-indicator loading" data-url="https://downloadsound.cloud/">Loading...</span></td>
+                </tr>
+                <!-- SCDL -->
+                <tr>
+                    <td><a href="https://scdler.com/" target="_blank">SCDL</a></td>
+                    <td><span class="status-indicator loading" data-url="https://scdler.com/">Loading...</span></td>
+                </tr>
+                <!-- YTMP3 -->
+                <tr>
+                    <td><a href="https://ytmp3.la/" target="_blank">YTMP3</a></td>
+                    <td><span class="status-indicator loading" data-url="https://ytmp3.la/">Loading...</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    
     <script src="js/ping.js"></script>
+    <!-- In your index.html, inside the <script> tag -->
+    <script>
+        fetch('html/headerMusic.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading header:', error));
+    </script>
+
+    <script>
+        fetch('html/songPlatforms.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('song-pl').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading header:', error));
+    </script>
 </body>
 </html>
