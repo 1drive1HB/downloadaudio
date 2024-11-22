@@ -55,8 +55,8 @@
     }
 
     .site-icon {
-        width: 30px;
-        height: 30px;
+        width: 60px;
+        height: 60px;
     }
 
     .link-item a {
@@ -127,14 +127,3 @@
 .status-indicator.loading {
     color: #f39c12; /* Orange for loading */
 }
-
-/* Responsive Design OLD */
-/* @media (max-width: 768px) {
-    .backup-links-table td {
-        font-size: 0.8rem;
-    }
-
-    .backup-links-table thead th {
-        font-size: 0.9rem;
-    }
-} */

@@ -1,16 +1,24 @@
-change header and p colors
+H1 - H6:
+blue color 
+different font style 
 
-Online for storage:
-1.)Use temp Email:
-https://tempmailo.com/
-2.) Create MEGA account - FREE 20 GB Cloud storage:
-https://mega.nz/register
+<p>:
+different white color NOT #FFF
+
+Add Ico For HTTPS Site in main for each site: 
+assets\ico\BlueIco\list_checkBLUE.png
+list_checkBLUE.png
 
 Add:
 https://fmhy.xyz/audiopiracyguide#audio-ripping-sites
 
 WIN10 Dekstop Software:
-
 https://nicotine-plus.org/doc/DOWNLOADS.html#windows
 
+- Add Dev and Test Env: (Github Actions)
 
+- Fix Middle Button
+
+- Add small menu for navigation links
+
+- add #to top button - "small vinyl logo.ico"
