@@ -62,3 +62,55 @@ h1 {
   color: #a6dcef;
   text-align: center;
 }
+
+
+/* This part is fopr footer */
+
+.software-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.software-card {
+  background-color: #4161a2; /* Dark background */
+  color: #fff; /* White text */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.software-card:hover {
+  transform: translateY(-5px); /* Slight hover effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.software-img {
+  width: 100%;
+  /* height: auto; */
+  max-height: 110px;
+  border-bottom: 2px solid #2e3440; /* Divider */
+}
+
+.software-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0A3069; /* Accent color */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.software-btn:hover {
+  background-color: #0097a7; /* Darker on hover */
+}

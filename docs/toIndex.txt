@@ -59,3 +59,61 @@ https://scdler.com/
 https://ytmp3.la/
 
 
+--##---------------------------------------##--
+
+OnlineConverter:
+https://audioalter.com/
+
+Playlists Youtube Download:
+https://en.loader.to/4/
+
+Online Convertion :
+https://www.freeconvert.com/
+
+
+Download WIN10 AudioMetadata App:
+https://www.mp3tag.de/en/
+
+Download SoulSeek:
+https://www.slsknet.org/news/node/1
+
+ReduceMP3:
+https://www.mp3smaller.com/
+
+-- to add: 
+
+Tools:
+
+Simple Online Audio Compare:
+" The similarity between these two audio files is nn.nn% "
+https://blue2digital.com/apps/compare-audios.html
+
+Audio File Types Info:
+https://primesound.org/audio-file-formats/
+
+Online Audio Metadata Info:
+https://mediaarea.net/MediaInfoOnline
+
+https://audio-tag-analyzer.netlify.app/
+
+Download WIN10 AudioMetadata App:
+https://www.mp3tag.de/en/
+
+Download SoulSeek:
+https://www.slsknet.org/news/node/1
+
+--------------
+in use: 
+Audio File Types Info:
+https://primesound.org/audio-file-formats/
+
+Online Audio Metadata Info:
+https://mediaarea.net/MediaInfoOnline
+
+Online Audio Convert:
+https://www.freeconvert.com/audio-converter
+
+
+https://icons.getbootstrap.com/
+https://getbootstrap.com/docs/4.0/components/buttons/
+
