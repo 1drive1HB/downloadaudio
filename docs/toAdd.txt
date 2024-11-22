@@ -1,24 +1,58 @@
-H1 - H6:
-blue color 
-different font style 
+# Organized To-Do Tasks
 
-<p>:
-different white color NOT #FFF
+## General Design Updates:
+1. **Update H1-H6**:
+   - Use a blue color for all headings.
+   - Apply a modern and different font style.
 
-Add Ico For HTTPS Site in main for each site: 
-assets\ico\BlueIco\list_checkBLUE.png
-list_checkBLUE.png
+2. **Paragraph (`<p>`) Styling**:
+   - Use a white color that is not pure white (#FFF).
 
-Add:
-https://fmhy.xyz/audiopiracyguide#audio-ripping-sites
+3. **Add Icons for HTTPS Sites**:
+   - Use `assets/ico/BlueIco/list_checkBLUE.png` as the icon.
+   - Ensure each site link includes this icon.
 
-WIN10 Dekstop Software:
-https://nicotine-plus.org/doc/DOWNLOADS.html#windows
+---
 
-- Add Dev and Test Env: (Github Actions)
+## Link Additions:
+1. **Audio Piracy Guide**:
+   - Link: `https://fmhy.xyz/audiopiracyguide#audio-ripping-sites`.
 
-- Fix Middle Button
+2. **Windows 10 Desktop Software Link**:
+   - Link: `https://nicotine-plus.org/doc/DOWNLOADS.html#windows`.
 
-- Add small menu for navigation links
+---
 
-- add #to top button - "small vinyl logo.ico"
+## Features and Enhancements:
+1. **Add Development and Test Environment**:
+   - Implement GitHub Actions for CI/CD.
+
+2. **Fix Middle Button in ("Audio COnvert")**:
+   - Resolve any alignment or styling issues, in heading.
+
+3. **Add Small Menu for Navigation Links**:
+   - Create an easily accessible menu for navigating various sections.
+
+4. **Add a "Back to Top" Button**:
+   - Use a small vinyl logo icon (`vinyl_logo.ico`).
+   - Position it at the bottom-right corner of the page.
+
+5. **Add HTTPS Site Icons**:
+   - Include icons for each secure site link in index - aka main.
+
+---
+
+## Content and Media:
+1. **Add Screenshot for Project on Linekdln**:
+   - Capture a clean and informative screenshot.
+   - Post it to IN for visibility.
+
+2. **Add Screenshot in `.md` File**:
+   - Use GitHub image markdown.
+   - Add screenshots to the project README file.
+
+---
+
+## Miscellaneous:
+1. **Organize and Clean Up Code**:
+   - Refactor CSS, HTML, and JavaScript for better readability and maintenance.
