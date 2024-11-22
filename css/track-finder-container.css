@@ -128,8 +128,8 @@
     color: #f39c12; /* Orange for loading */
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
+/* Responsive Design OLD */
+/* @media (max-width: 768px) {
     .backup-links-table td {
         font-size: 0.8rem;
     }
@@ -137,4 +137,4 @@
     .backup-links-table thead th {
         font-size: 0.9rem;
     }
-}
+} */

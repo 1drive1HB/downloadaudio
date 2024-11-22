@@ -68,7 +68,7 @@
 
 /* Card tags icons */
 .link-card .tags .tag-icon {
-    width: 24px; /* Smaller icons */
+    width: 24px; 
     height: 24px;
     object-fit: contain;
 }
@@ -76,7 +76,7 @@
 /* Card status */
 .link-card .status {
     font-size: 0.9rem;
-    color: #8fbf88; /* Green for active */
+    color: #8fbf88; 
     margin-top: 0px;
     margin-bottom: 10px;
 }
@@ -86,12 +86,6 @@
     color: #fff;
     background: #161b22;
     border-radius: 10px;
-    /* 
-    padding: 5px 8px;
-    border-radius: 5px;
-    font-size: 0.9rem;
-    transition: background 0.3s; 
-    */
 }
 
 .link-card a:hover {
