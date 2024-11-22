@@ -1,7 +1,9 @@
+Add:
 https://fmhy.xyz/audiopiracyguide#audio-ripping-sites
 
 WIN10 Dekstop Software:
 
 https://nicotine-plus.org/doc/DOWNLOADS.html#windows
 
-
+-- card bacground radius smanjit kut 
+-- fix footer buttons cover 
