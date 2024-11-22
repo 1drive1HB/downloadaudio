@@ -131,18 +131,6 @@ h1 {
   color: #fff;
 }
 
-/* Storage Tools Buttons */
-#temp-email-btn {
-  background-color: #c1a621;
-  color: #fff;
-
-}
-
-#mega-storage-btn {
-  background-color: #ff0000;
-  color: #fff;
-
-}
 
 /* Hover Effect for Specific IDs */
 #audio-metadata-btn:hover {
@@ -158,4 +146,60 @@ h1 {
 #audio-formats-btn:hover {
   background: #8b949e;
   color: #fff; /* Text color on hover */
+}
+
+/* General Styling for Equal Width Buttons */
+.equal-width-btn {
+  width: 120px; /* Set consistent width */
+  text-align: center;
+  padding: 10px 15px; /* Adjust padding for a balanced look */
+  border-radius: 8px; /* Slightly rounded corners */
+  font-size: 0.9rem; /* Adjust text size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* Space between icon and text */
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Temporary Email Button Styling */
+#temp-email-btn {
+  background-color: #c1a621; /* Vibrant golden yellow */
+  color: #fff;
+}
+
+#temp-email-btn:hover {
+  background-color: #b48c1d; /* Darker golden yellow for hover */
+  box-shadow: 0 6px 12px rgba(193, 166, 33, 0.3); /* Brighter yellow shadow on hover */
+}
+
+/* MEGA Cloud Storage Button Styling */
+#mega-storage-btn {
+  background-color: #ff0000; /* Bright red */
+  color: #fff;
+}
+
+#mega-storage-btn:hover {
+  background-color: #cc0000; /* Darker red for hover */
+  box-shadow: 0 6px 12px rgba(255, 0, 0, 0.3); /* Brighter red shadow on hover */
+}
+
+/* Container Styling */
+.d-flex {
+  display: flex;
+  gap: 25px; /* Increased spacing between buttons */
+  flex-wrap: wrap; /* Allow buttons to wrap on small screens */
+  justify-content: center; /* Center align the buttons */
+  margin-top: 20px; /* Add spacing above the buttons */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+  .equal-width-btn {
+    width: 80%; /* Make buttons full-width on smaller screens */
+    font-size: 1rem; /* Slightly larger text for readability */
+  }
 }
