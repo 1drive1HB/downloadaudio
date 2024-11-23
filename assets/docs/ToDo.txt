@@ -6,10 +6,6 @@
 
 2. **Windows 10 Desktop Software**:  
    - Add link: [Nicotine+ Downloads](https://nicotine-plus.org/doc/DOWNLOADS.html#windows).
-
-3. **Enable Old Cards**:  
-   - Reactivate `x3YT` cards and add status check with `status.js` or `ping.js`.
-
 ---
 
 ## Features and Enhancements:
@@ -24,7 +20,8 @@
 
 4. **"Back to Top" Button**:  
    - Implement a small vinyl logo icon button (`vinyl_logo.ico`) in the bottom-right corner with smooth scrolling.
-
+   - FIX:
+      --> 20GB Free Div in barHEADING.css , h4 .s 
 ---
 
 ## Miscellaneous:
@@ -32,21 +29,6 @@
    - Refactor **CSS, HTML, and JavaScript** for better readability and structure.
 
 2. **Test Features**:  
-   - Verify that links, buttons, and features work correctly across browsers.
-
--- check ping.js tests
--- add CF??? 
-
+   - check ping.js tests
+   - add CF??? 
 ---
-
-## Priority Breakdown:
-- **High Priority**: 
-  - Enable old cards and add status checks.  
-  - Implement the "Back to Top" button.  
-  - Improve card descriptions.
-
-- **Medium Priority**: 
-  - Refactor code and add GitHub Actions for CI/CD.
-
-- **Low Priority**:  
-  - Add links, screenshots, and enhance aesthetics.
