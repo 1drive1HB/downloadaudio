@@ -1,8 +1,7 @@
 /* General container styling */
 #track-finder-container {
     text-align: center;
-    padding: 20px;
-    padding-bottom: 0px;
+    padding: 20px 0;
 }
 
 /* List of links */
@@ -11,7 +10,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap; /* Wrap items on smaller screens */
+    flex-wrap: wrap;
     padding: 0;
     margin: 20px 0;
 }
@@ -87,24 +86,7 @@
     color: #a6dcef;
     padding: 10px;
     font-size: 1rem;
-    text-align: left;
     text-align: center;
-}
-
-/* Table Rows */
-.backup-links-table tbody tr {
-    border-bottom: 1px solid #2c3e50;
-}
-
-.backup-links-table tbody tr:last-child {
-    border-bottom: none;
-}
-
-/* Table Cells */
-.backup-links-table td {
-    padding: 10px;
-    font-size: 0.9rem;
-    color: #e0e0e0;
 }
 
 .backup-links-table td a {
@@ -122,9 +104,10 @@
     display: inline-block;
     font-size: 0.8rem;
     color: #8fbf88; /* Default green for active */
+    
 }
 
-/* Add a Loading Class */
+/* Loading Status */
 .status-indicator.loading {
     color: #f39c12; /* Orange for loading */
 }

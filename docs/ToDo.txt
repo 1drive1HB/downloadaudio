@@ -34,6 +34,9 @@
 2. **Test Features**:  
    - Verify that links, buttons, and features work correctly across browsers.
 
+-- check ping.js tests
+-- add CF??? 
+
 ---
 
 ## Priority Breakdown:

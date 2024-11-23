@@ -1,9 +1,11 @@
-/* SCSS Code */
+/* Global Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Header */
 header {
   display: flex;
   justify-content: center;
@@ -11,6 +13,8 @@ header {
   gap: 1rem;
   position: relative;
 }
+
+/* Playing Animation */
 .playing {
   background: rgba(255, 255, 255, 0.1);
   width: 5rem;
@@ -22,6 +26,7 @@ header {
   padding: 0.8rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
+
 .playing__bar {
   display: inline-block;
   background: white;
@@ -29,47 +34,27 @@ header {
   height: 100%;
   animation: up-and-down 1.3s ease infinite alternate;
 }
-.playing__bar1 {
-  height: 60%;
-}
-.playing__bar2 {
-  height: 30%;
-  animation-delay: -2.2s;
-}
-.playing__bar3 {
-  height: 75%;
-  animation-delay: -3.7s;
-}
-/* .playing__bar4 {
-  height: 55%;
-  animation-delay: -3.7s;
-} */
+
+.playing__bar1 { height: 60%; }
+.playing__bar2 { height: 30%; animation-delay: -2.2s; }
+.playing__bar3 { height: 75%; animation-delay: -3.7s; }
+
 @keyframes up-and-down {
-  10% {
-    height: 30%;
-  }
-  30% {
-    height: 100%;
-  }
-  60% {
-    height: 50%;
-  }
-  80% {
-    height: 75%;
-  }
-  100% {
-    height: 60%;
-  }
+  10% { height: 30%; }
+  30% { height: 100%; }
+  60% { height: 50%; }
+  80% { height: 75%; }
+  100% { height: 60%; }
 }
+
+/* Heading */
 h1 {
   font-size: 2.5rem;
   color: #a6dcef;
   text-align: center;
 }
 
-
-/* This part is for footer */
-
+/* Footer */
 .software-links {
   display: flex;
   flex-wrap: wrap;
@@ -79,8 +64,8 @@ h1 {
 }
 
 .software-card {
-  background-color: #2e3440; /* Dark background */
-  color: #fff; /* White text */
+  background-color: #2e3440;
+  color: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -90,15 +75,14 @@ h1 {
 }
 
 .software-card:hover {
-  transform: translateY(-5px); /* Slight hover effect */
+  transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
 
 .software-img {
   width: 100%;
-  /* height: auto; */
   max-height: 110px;
-  border-bottom: 2px solid #2e3440; /* Divider */
+  border-bottom: 2px solid #2e3440;
 }
 
 .software-btn {
@@ -108,7 +92,8 @@ h1 {
   font-size: 0.9rem;
   font-weight: bold;
   color: #fff;
-  background-color: #0A3069; /* Accent color */
+  /* background-color: #0A3069; */
+  background-color:#161b22;
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -116,94 +101,72 @@ h1 {
 }
 
 .software-btn:hover {
-  background-color: #0097a7; /* Darker on hover */
-}
-
-/* Specific Button Styles by ID */
-#audio-metadata-btn {
-  background-color: #310a70;
-  color: #fff;
-}
-
-#audio-convert-btn {
-  background-color: #375887;
-  color: #fff;
-}
-
-#audio-formats-btn {
   background-color: #0A3069;
+}
+
+/* Button Specific Styles */
+#audio-metadata-btn, #audio-convert-btn, #audio-formats-btn {
   color: #fff;
 }
 
+#audio-metadata-btn { background-color: #310a70; }
+#audio-convert-btn { background-color: #375887; }
+#audio-formats-btn { background-color: #0A3069; }
 
-/* Hover Effect for Specific IDs */
-#audio-metadata-btn:hover {
+#audio-metadata-btn:hover, #audio-convert-btn:hover, #audio-formats-btn:hover {
   background: #8b949e;
-  color: #fff; /* Text color on hover */
+  color: #fff;
 }
 
-#audio-convert-btn:hover {
-  background: #8b949e;
-  color: #fff; /* Text color on hover */
-}
-
-#audio-formats-btn:hover {
-  background: #8b949e;
-  color: #fff; /* Text color on hover */
-}
-
-/* General Styling for Equal Width Buttons */
+/* Equal Width Buttons */
 .equal-width-btn {
-  width: 140px; /* Set consistent width */
+  width: 140px;
   text-align: center;
-  padding: 10px 15px; /* Adjust padding for a balanced look */
-  border-radius: 8px; /* Slightly rounded corners */
-  font-size: 0.9rem; /* Adjust text size */
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 0.9rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4px; /* Space between icon and text */
+  gap: 4px;
   transition: background-color 0.3s, box-shadow 0.3s;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   color: #fff;
   text-decoration: none;
-}
-
-/* Temporary Email Button Styling */
-#temp-email-btn {
-  background-color: #c1a621; /* Vibrant golden yellow */
-  color: #fff;
-}
-
-#temp-email-btn:hover {
-  background-color: #b48c1d; /* Darker golden yellow for hover */
-  box-shadow: 0 6px 12px rgba(193, 166, 33, 0.3); /* Brighter yellow shadow on hover */
-}
-
-/* MEGA Cloud Storage Button Styling */
-#mega-storage-btn {
-  background-color: #ff0000; /* Bright red */
-  color: #fff;
-}
-
-#mega-storage-btn:hover {
-  background-color: #cc0000; /* Darker red for hover */
-  box-shadow: 0 6px 12px rgba(255, 0, 0, 0.3); /* Brighter red shadow on hover */
 }
 
 /* Container Styling */
 .d-flex {
   display: flex;
-  gap: 25px; /* Increased spacing between buttons */
-  flex-wrap: wrap; /* Allow buttons to wrap on small screens */
-  justify-content: center; /* Center align the buttons */
-  margin-top: 20px; /* Add spacing above the buttons */
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 /* Responsive Adjustments */
 @media (max-width: 576px) {
   .equal-width-btn {
-    width: 80%; /* Make buttons full-width on smaller screens */
-    font-size: 1rem; /* Slightly larger text for readability */
+    width: 80%;
+    font-size: 1rem;
   }
+}
+
+h4 .s {
+  display: inline-block;
+}
+
+.storage-info {
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+.storage-amount {
+  display: block;
+  font-weight: bold;
+}
+
+.storage-status {
+  display: block;
+  color: #28a745; /* Optional: You can change the color */
 }

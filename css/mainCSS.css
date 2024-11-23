@@ -1,4 +1,3 @@
-/* Global reset and typography */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +5,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Body */
 body {
     background: linear-gradient(to bottom, #0A3069, #161b22);
     color: #e0e0e0;
@@ -14,36 +12,32 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px; /* Add some padding around the body */
+    padding: 20px;
 }
 
-/* Containers */
 .containerM {
     width: 100%;
     max-width: 870px;
-    margin-top: 5px; /* Space between containers */
-    margin-bottom: 5px; /* Space between containers */
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
     background: #0d1117;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 
-
-/* Heading (H1-H6) Styling */
 h1, h2, h3, h4, h5, h6 {
-    color: #a6dcef; /* Blue color for headings */
-    font-family: 'Poppins', sans-serif; /* Modern font style */
-    font-weight: 600; /* Bold weight for better visibility */
-    margin-bottom: 1rem; /* Spacing below headings */
-  }
-  
-  /* Paragraph (<p>) Styling */
-  p {
-    color: #FAEBD7; /* Antique white for paragraphs */
-    font-family: 'Roboto', sans-serif; /* Clean and modern font style */
-    line-height: 1.6; /* Improved readability */
-    margin-bottom: 1.2rem; /* Consistent spacing below paragraphs */
-  }
+    color: #a6dcef;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: #FAEBD7;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+}
