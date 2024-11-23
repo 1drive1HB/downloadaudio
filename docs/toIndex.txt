@@ -149,3 +149,9 @@ https://tempmailo.com/
 https://mega.nz/register
 
 
+
+
+<p class="status">
+HTTPS: <i class="bi bi-check-circle https-check"></i> 
+Status: <span class="status-indicator loading" data-url="">Loading...</span>
+</p>

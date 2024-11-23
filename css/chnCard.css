@@ -108,3 +108,17 @@
         max-width: 100%;
     }
 }
+
+/* Style for the green check icon */
+.https-check {
+    color: #28a745; /* Bootstrap success green */
+    margin-right: 5px; /* Space between icon and text */
+    vertical-align: middle; /* Align with text */
+  }
+  
+  /* Style for the secure status text */
+  .status-indicator.secure {
+    color: #28a745;
+    font-weight: bold;
+  }
+

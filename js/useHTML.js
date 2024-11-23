@@ -1,7 +1,9 @@
 const elementsToFetch = [
     { url: 'html/headerMusic.html', elementId: 'header-container' },
     { url: 'html/songPlatforms.html', elementId: 'song-pl' },
-    { url: 'html/fotLow.html', elementId: 'fotLow' }
+    { url: 'html/fotLow.html', elementId: 'fotLow' },
+    { url: 'html/linkPerf.html', elementId: 'linkPerf' }
+
 ];
 
 elementsToFetch.forEach(item => {

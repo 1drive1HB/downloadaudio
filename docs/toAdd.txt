@@ -1,18 +1,5 @@
 # Organized To-Do Tasks
-
-## General Design Updates:
-1. **Update H1-H6**:
-   - Use a blue color for all headings.
-   - Apply a modern and different font style.
-
-2. **Paragraph (`<p>`) Styling**:
-   - Use a white color that is not pure white (#FFF).
-
-3. **Add Icons for HTTPS Sites**:
-   - Use `assets/ico/BlueIco/list_checkBLUE.png` as the icon.
-   - Ensure each site link includes this icon.
-
----
+- decs in main card's
 
 ## Link Additions:
 1. **Audio Piracy Guide**:
@@ -27,19 +14,12 @@
 1. **Add Development and Test Environment**:
    - Implement GitHub Actions for CI/CD.
 
-2. **Fix Middle Button in ("Audio COnvert")**:
-   - Resolve any alignment or styling issues, in heading.
-
 3. **Add Small Menu for Navigation Links**:
    - Create an easily accessible menu for navigating various sections.
 
 4. **Add a "Back to Top" Button**:
    - Use a small vinyl logo icon (`vinyl_logo.ico`).
    - Position it at the bottom-right corner of the page.
-
-5. **Add HTTPS Site Icons**:
-   - Include icons for each secure site link in index - aka main.
-
 ---
 
 ## Content and Media:
@@ -50,7 +30,6 @@
 2. **Add Screenshot in `.md` File**:
    - Use GitHub image markdown.
    - Add screenshots to the project README file.
-
 ---
 
 ## Miscellaneous:

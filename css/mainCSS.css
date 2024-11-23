@@ -21,18 +21,29 @@ body {
 .containerM {
     width: 100%;
     max-width: 870px;
-    margin-bottom: 30px; /* Space between containers */
+    margin-top: 5px; /* Space between containers */
+    margin-bottom: 5px; /* Space between containers */
     padding: 20px;
+    padding-bottom: 0px;
     background: #0d1117;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 
-/* Header styling */
-header h1 {
-    font-size: 2.5rem;
-    color: #a6dcef;
-}
 
-
+/* Heading (H1-H6) Styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #a6dcef; /* Blue color for headings */
+    font-family: 'Poppins', sans-serif; /* Modern font style */
+    font-weight: 600; /* Bold weight for better visibility */
+    margin-bottom: 1rem; /* Spacing below headings */
+  }
+  
+  /* Paragraph (<p>) Styling */
+  p {
+    color: #FAEBD7; /* Antique white for paragraphs */
+    font-family: 'Roboto', sans-serif; /* Clean and modern font style */
+    line-height: 1.6; /* Improved readability */
+    margin-bottom: 1.2rem; /* Consistent spacing below paragraphs */
+  }
