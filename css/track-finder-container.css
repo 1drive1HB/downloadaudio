@@ -70,44 +70,4 @@
     padding: 20px;
 }
 
-/* Backup Links Table */
-.backup-links-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    background: #1f2937;
-    border-radius: 10px;
-    overflow: hidden;
-}
 
-/* Table Head */
-.backup-links-table thead th {
-    background: #0d1117;
-    color: #a6dcef;
-    padding: 10px;
-    font-size: 1rem;
-    text-align: center;
-}
-
-.backup-links-table td a {
-    color: #a6dcef;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.backup-links-table td a:hover {
-    text-decoration: underline;
-}
-
-/* Status Indicator */
-.status-indicator {
-    display: inline-block;
-    font-size: 0.8rem;
-    color: #8fbf88; /* Default green for active */
-    
-}
-
-/* Loading Status */
-.status-indicator.loading {
-    color: #f39c12; /* Orange for loading */
-}

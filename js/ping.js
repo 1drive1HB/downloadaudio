@@ -1,60 +1,81 @@
-// ping.js
-
-function Pinger_ping(ip, callback) {
-    if (!this.inUse) {
-      this.inUse = true;
-      this.callback = callback;
-      this.ip = ip;
+document.addEventListener('DOMContentLoaded', () => {
+    class Pinger {
+      constructor(ip, callback) {
+        this.inUse = false;
+        this.img = null;
+        this.start = null;
+        this.timer = null;
+        this.callback = callback;
+        this.ip = ip;
+      }
   
-      var _that = this;
+      ping() {
+        if (!this.inUse) {
+          this.inUse = true;
   
-      this.img = new Image();
-      this.img.onload = function() { _that.good(); };
-      this.img.onerror = function() { _that.good(); };
+          const _that = this;
+          this.img = new Image();
   
-      this.start = new Date().getTime();
-      this.img.src = "http://" + ip + "/?cachebreaker=" + new Date().getTime(); // Cache breaker to avoid caching issues
-      this.timer = setTimeout(function() { _that.bad(); }, 1500);
+          // On success
+          this.img.onload = function () {
+            _that.good();
+          };
+  
+          // On error
+          this.img.onerror = function () {
+            _that.bad();
+          };
+  
+          // Start time tracking and request
+          this.start = new Date().getTime();
+          this.img.src = "https://" + this.ip + "/favicon.ico?time=" + this.start; // Add time to avoid caching
+          this.timer = setTimeout(function () {
+            _that.bad();
+          }, 1500); // Timeout after 1.5 seconds
+        }
+      }
+  
+      good() {
+        clearTimeout(this.timer);
+        this.inUse = false;
+        this.callback(true, this.ip);
+      }
+  
+      bad() {
+        clearTimeout(this.timer);
+        this.inUse = false;
+        this.callback(false, this.ip);
+      }
     }
-  }
   
-  Pinger_ping.prototype.good = function() {
-    clearTimeout(this.timer);
-    this.inUse = false;
-    if (this.callback) this.callback(true);
-  };
+    // Function to update the status indicator
+    function updateStatus(indicator, status) {
+      if (status === "loading") {
+        indicator.textContent = "loading...";
+        indicator.style.color = "#f39c12"; // Orange
+      } else if (status) {
+        indicator.textContent = "Online";
+        indicator.style.color = "#39FF14"; // Green
+      } else {
+        indicator.textContent = "Offline";
+        indicator.style.color = "#FF073A"; // Red
+      }
+    }
   
-  Pinger_ping.prototype.bad = function() {
-    this.inUse = false;
-    if (this.callback) this.callback(false);
-  };
+    // Get all status indicators and check each URL
+    const indicators = document.querySelectorAll('.status-indicator');
+    indicators.forEach((indicator) => {
+      const ip = indicator.getAttribute('data-url');
   
-  function pingURL(url, callback) {
-    var pinger = new Pinger_ping(url, callback);
-  }
+      // Set loading state
+      updateStatus(indicator, "loading");
   
-
-// Initialize pings for status checking
-document.addEventListener('DOMContentLoaded', function() {
-    var statusIndicators = document.querySelectorAll('.status-indicator');
-
-    statusIndicators.forEach(function(indicator) {
-        var url = indicator.getAttribute('data-url');
-        pingURL(url, function(isActive) {
-            indicator.textContent = isActive ? 'Online' : 'Offline';
-            indicator.style.color = isActive ? '#39FF14' : '#FF073A'; // Neon green for online, neon red for offline
-        });
+      // Ping the URL
+      const pinger = new Pinger(ip, (isOnline) => {
+        updateStatus(indicator, isOnline);
+      });
+  
+      pinger.ping();
     });
-});
-
-
-
-// example for using html 
-
-// <li>
-// <a href="https://torrenttribe.com/" target="_blank" id="star">Torrent Tribe</a>
-// <div class="description">- Resource for torrents.</div>
-// <span class="status-indicator loading" data-url="https://torrenttribe.com/">Loading...</span>
-// </li>
-
-//    <script src="js/ping.js"></script>
+  });
+  
