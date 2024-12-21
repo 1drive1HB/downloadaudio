@@ -1,48 +1,34 @@
-# Simplified and Organized To-Do List
+#########################################################
+# **To-Do List**
 
-## **Link Additions** in Section : Links Performance Tools , and other sec//: 
-1. **Audio Piracy Guide**:  
-   - Add link: [Audio Piracy Guide](https://fmhy.xyz/audiopiracyguide#audio-ripping-sites).
-2. **Windows 10 Desktop Software**:  
-   - Add link: [Nicotine+ Downloads](https://nicotine-plus.org/doc/DOWNLOADS.html#windows).
-3. **Cloudflare Speed Test**:  
-   - Add link: [Cloudflare Speed Test](https://speed.cloudflare.com/).
-   - update README ?? 
----
+## **Windows Software**
+- [Nicotine+ Downloads](https://nicotine-plus.org/doc/DOWNLOADS.html#windows)
 
-## **Features & Enhancements**
-1. **Development Tools**:
-   - Set up **GitHub Actions** for CI/CD:
-     - Unit tests.
-     - Build checks.
+## **Online Tools**
+- [Loader.to MP4 Downloader](https://en.loader.to/4/)
 
-2. **Navigation Improvements**:
-   - Create a **compact navigation menu** for easy section access.
-   - Add a **"Back to Top"** button:
-     - Use a small **vinyl logo icon** (`vinyl_logo.ico`).
-     - Enable smooth scrolling functionality.
+### **Tasks**
+1. **GitHub Actions**
+   - Implement CI/CD workflows for tests and builds / ENV's
 
-3. **Content Enhancements**:
-   - Improve **card descriptions** for clarity and relevance.
-   - Add a **custom Cloudflare speed test icon**.
+2. **Navigation**
+   - fix  id="audio-tools-btn"
 
----
+1. **Code Cleanup**
+   - Code Cleanup
+   - Test and debug `ping.js` and new logic.
 
-## **Miscellaneous Tasks**
-1. **Code Refactoring**:
-   - Clean and organize **CSS**, **HTML**, and **JavaScript** for readability and maintainability.
+2. **New Tools**
+   - Integrate a **Beatport ripping site**.
+   - Research and add another Spotify-related tool.
 
-2. **Test Features**:
-   - Verify `ping.js` functionality.
-   - Add Cloudflare functionality (?).
-   - Explore **Cloudflare or Spotify alternatives**.
+#########################################################
+# **MAIN LINKS:
 
-3. **New Resource Links**:
-   - Add a **Beatport ripping site**.
-   - Identify another resource for **Spotify-related tools**.
+https://icons.getbootstrap.com/
 
----
+# **NOTE's:
 
-### **Notes**
-- Consider adding a **fake activity status** (e.g., "Active").
-- Prioritize **refactoring** and testing as initial steps to ensure stability.
+- dont remove comments on index.html []
+
+#########################################################

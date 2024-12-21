@@ -22,11 +22,12 @@ body {
     margin-bottom: 5px;
     padding: 20px;
     padding-bottom: 0;
-    background: #0d1117;
+    background: rgba(13, 17, 23, 0.75); /* Blackish background with 75% opacity */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     color: #a6dcef;

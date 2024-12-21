@@ -105,15 +105,17 @@ h1 {
 }
 
 /* Button Specific Styles */
-#audio-metadata-btn, #audio-convert-btn, #audio-formats-btn {
+#audio-metadata-btn, #audio-convert-btn, #audio-formats-btn, #audio-tools-btn{
   color: #fff;
 }
 
 #audio-metadata-btn { background-color: #310a70; }
 #audio-convert-btn { background-color: #375887; }
 #audio-formats-btn { background-color: #0A3069; }
+#audio-tools-btn { background-color: #341c51; }
 
-#audio-metadata-btn:hover, #audio-convert-btn:hover, #audio-formats-btn:hover {
+
+#audio-metadata-btn:hover, #audio-convert-btn:hover, #audio-formats-btn:hover, #audio-tools-btn:hover {
   background: #8b949e;
   color: #fff;
 }
